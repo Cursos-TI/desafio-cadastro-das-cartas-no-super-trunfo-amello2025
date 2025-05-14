@@ -6,6 +6,13 @@
 
 int main() {
 
+    char estado; //declarando a variável "estado" tipo char
+    char [10] codigo; //declarando a variável "codigo" tipo char
+    char [30] cidade; //declarando a variável "cidade" tipo char
+    int populacao; //declarando a variável "populacao" tipo inteiro
+    float area; //declarando a variável "area" tipo float
+    float pib; //declarando a variável "pib" tipo float
+
     printf("Carta 1:"\n);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
