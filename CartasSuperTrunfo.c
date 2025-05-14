@@ -17,10 +17,14 @@ int main() {
 
     printf("CARTA 1:"\n);
     
-        printf("Digite a primeira letra do seu estado de A a H - Exemplo: para BAHIA Digite B :"\n);
+        printf("Digite a primeira letra do seu estado de A a H (Ex: para BAHIA Digite B):"\n);
         scanf("%s", &estado);
 
-        
+        printf("Digite o codigo da cidade seguido de um numero de 01 a 04 (Ex: B01, A02):"\n);
+        scanf("%s", &codigo);
+
+        printf("Digite o nome da cidade:"\n);
+        scanf("%s", &cidade);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
