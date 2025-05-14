@@ -70,9 +70,25 @@ int main() {
         printf("Digite a quantidade de pontos turisticos da cidade:"\n); //solicitando dados de entrada
         scanf("%d", &pontoturistico_C2);  //gravando dados na variavel pontoturistico carta2
 
-    printf("DADOS DA CARTA 1:"\n);
+    printf("DADOS DA CARTA 1:"\n); //impressão de dados na tela - CARTA 1
         printf("Estado: %s\n", estado);
+        printf("Codigo da cidade: %s\n", codigo);
+        printf("Cidade: %s\n", cidade);
+        printf("População: %d\n", populacao);
+        printf("Area: %f\n", area);
+        printf("PIB: %f\n", pib);
+        printf("Pontos turisticos: %d\n", pontoturistico);
 
+    printf("DADOS DA CARTA 2:"\n); //impressão de dados na tela - CARTA 2
+        printf("Estado: %s\n", estado_C2);
+        printf("Codigo da cidade: %s\n", codigo_C2);
+        printf("Cidade: %s\n", cidade_C2);
+        printf("População: %d\n", populacao_C2);
+        printf("Area: %f\n", area_C2);
+        printf("PIB: %f\n", pib);
+        printf("Pontos turisticos: %d\n", pontoturistico_C2);
+      
+return 0;
 
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
